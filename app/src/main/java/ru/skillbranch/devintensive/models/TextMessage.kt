@@ -19,6 +19,7 @@ class TextMessage(
             else -> "отправил"
         }
 
+
         return "id:$id ${from?.firstName} $status сообщение \"$text\" ${date.humanizeDiff()}"
     }
 

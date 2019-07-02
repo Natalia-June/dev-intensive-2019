@@ -8,6 +8,5 @@ object Utils {
         if ((firstName == null) or (firstName == "") or (firstName == " ")) firstName = null else firstName === firstName
         if ((lastName == null) or (lastName == "") or (lastName == " ")) lastName = null else lastName === lastName
         return firstName to lastName
-
     }
 }

@@ -14,6 +14,7 @@ fun User.toUserView(): UserView {
         "Ещё ни разу не был"
     } else if (isOnline) {
         "online"
+
     } else {
         "Последний раз был ${lastVisit.humanizeDiff()}"
     }

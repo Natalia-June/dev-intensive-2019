@@ -18,5 +18,6 @@ class UserView(
             status: $status
             initials: $initials
         """.trimIndent())
+
     }
 }

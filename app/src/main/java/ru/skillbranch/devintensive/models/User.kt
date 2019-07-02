@@ -21,6 +21,7 @@ class User(
         firstName = firstName,
         lastName = lastName,
         avatar = null
+
     )
 
     constructor(id: String) : this(id, "John", "Doe")

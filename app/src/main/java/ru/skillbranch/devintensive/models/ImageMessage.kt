@@ -17,6 +17,7 @@ class ImageMessage(
         val status = when (isIncoming) {
             true -> "получил"
             else -> "отправил"
+
         }
 
         return "id:$id ${from?.firstName} $status изображение \"$image\" ${date.humanizeDiff()}"

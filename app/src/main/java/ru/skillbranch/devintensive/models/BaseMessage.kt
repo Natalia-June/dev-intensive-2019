@@ -23,6 +23,7 @@ abstract class BaseMessage(
                 "image" -> ImageMessage("$lastId", from, chat, date=date, image = payload as String)
                 else -> TextMessage("$lastId", from, chat, date=date, text = payload as String)
             }
+
         }
     }
 }
